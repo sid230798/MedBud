@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Commenting out PDF as well for now
+*.pdf
+
 # C extensions
 *.so
 
@@ -160,3 +163,5 @@ cython_debug/
 .idea/
 node_modules
 .DS_Store
+
+

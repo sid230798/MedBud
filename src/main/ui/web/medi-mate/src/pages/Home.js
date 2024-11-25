@@ -147,7 +147,7 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>MediMate - Biomedical Q&A Assistant!</title>
+                <title>MedBud - Your personal Medical QnA assistant!</title>
                 <link rel="icon" href={logo} type="image/png"/>
             </Helmet>
             {/* style={pageStyle} */}

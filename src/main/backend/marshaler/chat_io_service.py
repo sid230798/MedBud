@@ -4,12 +4,12 @@ from flask import Flask, request
 from flask_cors import CORS
 
 # Comment for dev
-from qna_service.openai_client import request_gpt_no_rag
-from qna_service.openai_client import run_rag_pipeline
+# from qna_service.openai_client import request_gpt_no_rag
+# from qna_service.openai_client import run_rag_pipeline
 
 # Uncomment for dev
-# from src.main.backend.qna_service.openai_client import request_gpt_no_rag
-# from src.main.backend.qna_service.openai_client import run_rag_pipeline
+from qna_service.openai_client import request_gpt_no_rag
+from qna_service.openai_client import run_rag_pipeline
 
 app = Flask(__name__)
 CORS(app)
@@ -48,4 +48,4 @@ def process_message_with_rag_chatgpt():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=8000)
