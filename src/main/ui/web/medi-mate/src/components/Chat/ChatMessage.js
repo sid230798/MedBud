@@ -14,7 +14,7 @@ const ChatMessage = ({ message }) => {
         <img
           width="48"
           height="48"
-          src="https://img.icons8.com/color/48/medical-doctor.png"
+          src="https://neopocussgrh.org/store/1/bgg.png"
           alt="medical-doctor"
           className="w-8 h-8 rounded-full mr-2"
         />
@@ -22,8 +22,8 @@ const ChatMessage = ({ message }) => {
       <div
         className={`flex items-center ${
           isAssistant
-            ? "bg-neutral-200 text-neutral-900"
-            : "bg-blue-500 text-white"
+            ? "bg-gradient-to-r from-pink-400 to-purple-400 text-white" // Lighter gradient for assistant
+            : "bg-gradient-to-r from-pink-600 to-purple-600 text-white" // Stronger gradient for user
         } rounded-2xl px-3 py-2 max-w-[67%] whitespace-pre-wrap`}
         style={{ ...messageContainerStyle, overflowWrap: "anywhere" }}
       >
@@ -31,7 +31,7 @@ const ChatMessage = ({ message }) => {
       </div>
       {!isAssistant && (
         <img
-          src="https://img.icons8.com/color/48/circled-user-male-skin-type-7--v1.png"
+          src="https://cdn-icons-png.freepik.com/512/3034/3034882.png"
           alt="User DP"
           className="w-8 h-8 rounded-full ml-2"
         />
