@@ -25,7 +25,7 @@ const Home = () => {
 
     const getSelectedModel = () => {
         switch (selectedModel) {
-            case "OpenAI gpt-3.5-turbo":
+            case "OpenAI gpt-4.0-turbo":
                 return MODELS_AVAILABLE.GPT_3_5;
             case "OpenAI da-vinci-003":
                 return MODELS_AVAILABLE.DA_VINCI;

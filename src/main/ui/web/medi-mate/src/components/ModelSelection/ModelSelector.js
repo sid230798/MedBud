@@ -3,7 +3,7 @@
 import React from "react";
 
 const ModelSelector = ({ onModelChange, handleReset }) => {
-  const models = ["Debug", "OpenAI gpt-3.5-turbo", "OpenAI da-vinci-003"];
+  const models = ["Debug", "OpenAI gpt-4.0-turbo", "OpenAI da-vinci-003"];
 
   return (
     <select
