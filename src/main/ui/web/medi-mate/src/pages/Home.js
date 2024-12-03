@@ -112,7 +112,7 @@ const Home = () => {
         setMessages([
             {
                 role: "assistant",
-                content: `Hello! I'm MediMate, your biomedical chatbot. I provide information on health topics, assist with medical inquiries, and support healthcare needs. Need insights on medical conditions or health advice? I'm here to help. How can I assist you today?`
+                content: `Hello! I'm MedBud, your biomedical chatbot. I provide information on health topics, assist with medical inquiries, and support healthcare needs. Need insights on medical conditions or health advice? I'm here to help. How can I assist you today?`
             }
         ]);
     };
@@ -139,7 +139,7 @@ const Home = () => {
         setMessages([
             {
                 role: "assistant",
-                content: `Hello! I'm MediMate, your biomedical chatbot. I provide information on health topics, assist with medical inquiries, and support healthcare needs. Need insights on medical conditions or health advice? I'm here to help. How can I assist you today?`
+                content: `Hello! I'm MedBud, your biomedical chatbot. I provide information on health topics, assist with medical inquiries, and support healthcare needs. Need insights on medical conditions or health advice? I'm here to help. How can I assist you today?`
             }
         ]);
     }, []);

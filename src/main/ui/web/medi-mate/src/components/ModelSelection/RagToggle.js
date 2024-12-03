@@ -17,7 +17,7 @@ const RAGToggle = ({ isRAGEnabled, handleRAGToggle, handleReset }) => {
         onReset={handleReset}
       />
       <span className="text-gray-700 dark:text-black font-normal">
-        <b>Enable RAG</b>
+        <b>Enable RAG + CoT</b>
       </span>
     </label>
   );
