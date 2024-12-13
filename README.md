@@ -1,7 +1,7 @@
 # Med-QnA-App
 
-Cross-Platform seamless chat application that performs CDQA + RAG tailored towards Medical Q&amp;A, Carried out as part
-of MED 277, UCSD Fall '23
+Cross-Platform seamless chat application that performs CDQA + RAG + CoT tailored towards Medical Q&amp;A, Carried out as part
+of MED 277, UCSD Fall '24
 
 # Overview
 
@@ -16,7 +16,7 @@ An overview of implementation is given below.
 1. Have ``git`` installed on your system. In a terminal navigate to a directory to save this project.
 2. Do ``git clone git@github.com:shy982/Med-QnA-App.git``.
 3. Do ``cd ./Med-QnA-App`` to enter root directory of project.
-4. Refer to the [Project Hierarchy](https://github.com/shy982/Med-QnA-App/tree/main/docs/ProjectStructure.md) and [API Documentation](https://github.com/shy982/Med-QnA-App/tree/main/docs/APIDocs.md) for related development information.
+4. Refer to the [Project Hierarchy](https://github.com/sid230798/Med-QnA-App/tree/main/docs/ProjectStructure.md) and [API Documentation](https://github.com/sid230798/Med-QnA-App/tree/main/docs/APIDocs.md) for related development information.
 
 ## Requirements:
 
@@ -53,6 +53,4 @@ We aim to make this application accessible and modularized enough to use as a pl
 
 Please feel free to contact the authors if you are interested to contribute or collaborate: 
 
-- [Shyam Renjith](https://www.github.com/shy982)
-- [Sanidhya Singal](https://www.github.com/sayhitosandy)
-- [Hyrum Eddington](https://github.com/hyedd77)
+- [Siddharth Nahar](https://www.github.com/sid230798)
