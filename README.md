@@ -1,4 +1,4 @@
-# Med-QnA-App
+# MedBud
 
 Cross-Platform seamless chat application that performs CDQA + RAG + CoT tailored towards Medical Q&amp;A, Carried out as part
 of MED 277, UCSD Fall '24
@@ -14,7 +14,7 @@ An overview of implementation is given below.
 ## Setup:
 
 1. Have ``git`` installed on your system. In a terminal navigate to a directory to save this project.
-2. Do ``git clone git@github.com:shy982/Med-QnA-App.git``.
+2. Do ``git clone git@github.com:sid230798/MedBud.git``.
 3. Do ``cd ./Med-QnA-App`` to enter root directory of project.
 4. Refer to the [Project Hierarchy](https://github.com/sid230798/Med-QnA-App/tree/main/docs/ProjectStructure.md) and [API Documentation](https://github.com/sid230798/Med-QnA-App/tree/main/docs/APIDocs.md) for related development information.
 
